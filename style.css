@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif;
+    height: 2000px;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),  url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: circle(149% at 50% -80%);
+}
+
+section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.3rem;
+    color: #FFF;
+}
